@@ -1,0 +1,21 @@
+main .first-section-about {
+    color: #fff;
+    background-image: url("../images/coding_background.jpg");
+    padding: 5px 0;
+}
+main .first-section-about h1 {
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+@media only screen and (max-width: 800px) {
+    main .first-section-about h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    main .first-section-about h1 {
+        font-size: 25px;
+    }
+}

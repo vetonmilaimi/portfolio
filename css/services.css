@@ -1,0 +1,45 @@
+main .first-section-services {
+    color: #fff;
+    background-image: url("../images/coding_background.jpg");
+    padding: 5px 0;
+}
+
+main .first-section-services h1 {
+    padding: 15px 0;
+    font-size: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+    main .first-section-services h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    main .first-section-services h1 {
+        font-size: 25px;
+    }
+}
+
+main .first-section-services .row .card {
+    background-color:  rgba(214, 224, 243, 0.8);
+    border: 1px solid red;
+}
+
+main .first-section-services .row {
+    display: flex;
+}
+
+main .first-section-services .coloumn {
+    flex: 50%;
+    margin: 15px; 
+}
+
+@media only screen and (max-width: 760px) {
+    main .first-section-services .row {
+        display: block;
+    }
+    main .first-section-services .coloumn {
+        flex: 100%;
+    }
+}
