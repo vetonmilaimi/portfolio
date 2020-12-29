@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
 
     <title>Project 10</title>
 </head>
@@ -41,8 +42,6 @@
         </nav>
     </header>
 
-    <br><br>
-
     <div class="icon-bar">
         <a href="https://www.facebook.com/veton.milaimi.587/" class="facebook"><i class="fa fa-facebook"></i></a>
         <a href="https://www.instagram.com/veton.milaimi/" class="instagram"><i class="fa fa-instagram"></i></a>
@@ -53,6 +52,62 @@
     </div>
 
     <button onclick="topFunction()" id="scrollUp" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+
+    <main>
+        <article>
+            <section class="first-section-contact">
+                <h1>Feel free to contact me for everything you need</h1>
+                <p>
+                    <b> <i>Your can contact me from: Facebook, Instagram, LinkedIn, Email and Phone number from icons in the left of you. Also you can submit the form below... </i> </b>
+                    <br>
+                   <b> Feel free to contact... </b>
+                </p>
+                <div class="row">
+                    <div class="coloumn">
+                        <img src="../images/veton3.png" alt="Veton Image" width="60%" height="auto" />
+                    </div>
+
+                    <div class="coloumn">
+                        <form action="mailto:veton.milaimi1@gmail.com" method="post" enctype="text/plain" autocomplete="off">
+                            <div>
+                                <label for="name">Your full name:</label> <br>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required> <br>
+                            </div>
+                            <div>
+                                <label for="email">Email address:</label> <br>
+                                <input type="email" id="email" name="email" placeholder="Email address" required> <br>
+                            </div>
+                            <div>
+                                <label for="whatAreYou">Your are:</label> <br>
+                                <select name="whatAreYou" id="whatAreYou">
+                                    <option value="company">Company</option>
+                                    <option value="person">Person</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="country">Your country:</label> <br>
+                                <select name="country" id="country">
+                                    <option value="albania">Albania</option>
+                                    <option value="kosovo">Kosovo</option>
+                                    <option value="macedonia">Macedonia</option>
+                                    <option value="montenegro">Montenegro</option>
+                                    <option value="germany">Germany</option>
+                                    <option value="usa">United States of America</option> 
+                                </select>
+                            </div>
+                            <div>
+                                <label for="message">Your Message:</label> <br>
+                                <textarea id="message" name="message" placeholder="Please enter your message here..." required></textarea>
+                            </div>
+
+                            
+                            <button type="submit"><b><i>Send</i></b></button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
 
     <footer>
         <p class="footer-paragraph">All rights reserved &copy;2021. <a

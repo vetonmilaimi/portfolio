@@ -26,6 +26,11 @@ main .first-section-services .row .card {
     border: 1px solid red;
 }
 
+main .first-section-services .row .card:hover {
+    background-color: rgba(214, 224, 243, 0.5);
+    padding: 20px;
+}
+
 main .first-section-services .row {
     display: flex;
 }
@@ -41,5 +46,9 @@ main .first-section-services .coloumn {
     }
     main .first-section-services .coloumn {
         flex: 100%;
+    }
+    main .first-section-services .row .card:hover {
+        background-color: rgba(214, 224, 243, 0.5);
+        padding: 0;
     }
 }

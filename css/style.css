@@ -1,5 +1,6 @@
 * {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -19,6 +20,10 @@ body {
     width: 100%;
     position: fixed;
     padding: 0;
+}
+
+.topnav:hover {
+    background-color: rgba(110, 158, 255, 1);
 }
 
 .topnav .nav_logo {
