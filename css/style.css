@@ -232,7 +232,7 @@ footer .footer-paragraph a:hover {
     font-size: 25px;
     border: none;
     outline: none;
-    background-color: rgb(110, 158, 255);
+    background-color: rgba(255, 0, 0, 0.8);
     color: rgb(250, 217, 217);
     cursor: pointer;
     padding: 10px 10px;
