@@ -9,6 +9,17 @@ body {
     float: center;
 }
 
+.profile-veton img{
+    width: 25%;
+    height: auto;
+}
+
+@media only screen and (max-width: 687px) {
+    .profile-veton img {
+        width: 50%;
+    }
+}
+
 /* ########## TOP NAVIGATION ########### */
 
 .topnav {
