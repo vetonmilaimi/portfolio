@@ -141,9 +141,13 @@ body {
 main .first-section {
     background-image: url("../images/coding_background.jpg");
     width: 100%;
-    height: auto;
+    height: 100%;
     color: #fff;
     padding: 5px 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .first-section h1 {
@@ -179,11 +183,12 @@ footer .footer-paragraph {
 
 footer .footer-paragraph a {
     text-decoration: none;
-    color: blue;
+    color: darkblue;
+    font-weight: bold;
 }
 
 footer .footer-paragraph a:hover {
-    color: rgb(255, 0, 0);
+    color: #fff;
 }
 
 /* ######## END FOOTER ######### */

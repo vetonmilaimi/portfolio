@@ -2,6 +2,12 @@ main .first-section-services {
     color: #fff;
     background-image: url("../images/coding_background.jpg");
     padding: 5px 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 main .first-section-services h1 {
